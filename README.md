@@ -12,6 +12,9 @@ deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates main restricted unive
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted universe multiverse
 ```
+```
+apt-get update
+```
 ถ้าหา libomp.so.5 ไม่เจอ
 ```
 apt-get install libomp5
