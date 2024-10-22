@@ -1,5 +1,5 @@
 ```
-cd && rm -rf CCMINER-GITHUB && git clone https://github.com/nititorn2542/CCMINER-GITHUB && cd CCMINER-GITHUB && chmod +x setup.sh && setup.sh
+cd && rm -rf CCMINER-GITHUB && git clone https://github.com/nititorn2542/CCMINER-GITHUB && cd CCMINER-GITHUB && chmod +x setup.sh && sh setup.sh
 ```
 
 # CCMINER IN TERMUX
