@@ -4,7 +4,7 @@ cd && rm -rf CCMINER-GITHUB && git clone https://github.com/nititorn2542/CCMINER
 
 ถ้า Ubuntu Version เก่า 
 ```
-sudo nano /etc/apt/sources.list
+nano /etc/apt/sources.list
 ```
 ```
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute main restricted universe multiverse
@@ -14,7 +14,7 @@ deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted univ
 ```
 ถ้าหา libomp.so.5 ไม่เจอ
 ```
-sudo apt-get install libomp5
+apt-get install libomp5
 ```
 
 # CCMINER IN TERMUX
