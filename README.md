@@ -2,6 +2,18 @@
 cd && rm -rf CCMINER-GITHUB && git clone https://github.com/nititorn2542/CCMINER-GITHUB && cd CCMINER-GITHUB && chmod +x setup.sh && sh setup.sh
 ```
 
+ถ้า Ubuntu Version เก่า 
+```
+sudo nano /etc/apt/sources.list
+```
+```
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted universe multiverse
+
+```
+
 # CCMINER IN TERMUX
 
 * แตะจอค้าง เลือก more
