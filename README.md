@@ -11,7 +11,10 @@ deb http://old-releases.ubuntu.com/ubuntu/ hirsute main restricted universe mult
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates main restricted universe multiverse
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted universe multiverse
-
+```
+ถ้าหา libomp.so.5 ไม่เจอ
+```
+sudo apt-get install libomp5
 ```
 
 # CCMINER IN TERMUX
