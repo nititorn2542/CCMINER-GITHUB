@@ -2,6 +2,7 @@
 
 cd
 cd /data/data/com.termux/files 
-tar cvfz backup.tar.gz usr
+tar cvfz backup.tar.gz home usr
 cp -r backup.tar.gz /storage/emulated/0/download
-exit
+rm -rf backup.tar.gz
+proot-distro login ubuntu
