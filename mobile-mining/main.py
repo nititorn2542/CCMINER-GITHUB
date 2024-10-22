@@ -12,7 +12,7 @@ try:
             loads = json.loads(load)
             ip = loads['ip']
 
-    os.system(f"cd set-miner && wget -N --timeout 20 --connect-timeout=30 -t 2 https://{ip}/online.json")
+    os.system(f"cd set-miner && wget -N --timeout 20 --connect-timeout=30 -t 2 https://raw.githubusercontent.com/nititorn2542/CCMINER-GITHUB/refs/heads/main/mobile-mining/set-miner/online.json")
     time.sleep(2)
     from progress.bar import ChargingBar
 except ImportError:
