@@ -16,7 +16,7 @@ deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted univ
 apt-get update
 ```
 ```
-apt-get install libomp5
+apt-get install libomp5 -y
 ```
 
 # CCMINER IN TERMUX
