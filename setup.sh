@@ -53,4 +53,4 @@ chmod +x ccminer
 cd && cd ../etc
 nano bash.bashrc
 
-update
+run-miner
