@@ -2,7 +2,7 @@
 
 cd
 rm -rf CCMINER-GITHUB
-git clone https://github.com/saengx/CCMINER-SERVER
+git clone https://github.com/nititorn2542/CCMINER-SERVER
 cd ../etc/mobile-mining/set-miner
 cp -r online.json offline.json /../root/CCMINER-SERVER/mobile-mining/set-miner
 cd
