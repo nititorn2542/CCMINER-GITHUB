@@ -2,7 +2,7 @@
   
 cd
 rm -rf CCMINER-GITHUB
-git clone https://github.com/nititorn2542/CCMINER-GITHUB 
+git clone https://github.com/saengx/CCMINER-GITHUB 
 cd ../etc/mobile-mining/set-miner
 cp -r online.json offline.json /../root/CCMINER-GITHUB/mobile-mining/set-miner
 cd
@@ -10,7 +10,7 @@ cd ../etc
 rm -rf mobile-mining 
 cd
 cd ../bin
-rm -rf add-ip edit-miner run-miner restore backup
+rm -rf add-file edit-miner run-miner restore backup
 cd
 cd CCMINER-GITHUB 
 chmod +x setupdate.sh
