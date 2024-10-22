@@ -1,0 +1,17 @@
+#!/bin/bash 
+  
+cd
+rm -rf CCMINER-GITHUB
+git clone https://github.com/Lerlop/CCMINER-GITHUB 
+cd ../etc/mobile-mining/set-miner
+cp -r online.json offline.json /../root/CCMINER-GITHUB/mobile-mining/set-miner
+cd
+cd ../etc
+rm -rf mobile-mining 
+cd
+cd ../bin
+rm -rf add-ip edit-miner run-miner restore backup
+cd
+cd CCMINER-GITHUB 
+chmod +x setupdate.sh
+sh setupdate.sh
