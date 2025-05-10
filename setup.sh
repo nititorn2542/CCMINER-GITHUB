@@ -30,24 +30,24 @@ apt-get install libllvm-16-ocaml-dev libllvm16 llvm-16 llvm-16-dev llvm-16-doc l
 apt-get install clang-format clang-tidy clang-tools clang clangd libc++-dev libc++1 libc++abi-dev libc++abi1 libclang-dev libclang1 liblldb-dev libllvm-ocaml-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm python3-clang -y
 
 # ลบไฟล์เก่า (ถ้ามี) ก่อนย้าย
-rm -f ../../etc/mobile-mining
-rm -f ../../bin/edit-miner
-rm -f ../../bin/run-miner
-rm -f ../../bin/add-file
-rm -f ../../bin/update
-rm -f ../../bin/down-grade
-rm -f ../../usr/share/figlet/ANSI_Shadow.flf
-rm -f /data/data/com.termux/files/usr/bin/backup
-rm -f /data/data/com.termux/files/usr/bin/restore
-rm -f /storage/emulated/0/download/install.txt
+rm -rf ../../etc/mobile-*
+rm -rf ../../bin/edit-miner
+rm -rf ../../bin/run-miner
+rm -rf ../../bin/add-file
+rm -rf ../../bin/update
+rm -rf ../../bin/down-grade
+rm -rf ../../usr/share/figlet/ANSI_Shadow.flf
+rm -rf /data/data/com.termux/files/usr/bin/backup
+rm -rf /data/data/com.termux/files/usr/bin/restore
+rm -rf /storage/emulated/0/download/install.txt
 
 # ย้ายไฟล์ใหม่
-mv mobile-mining ../../etc
-mv edit-miner ../../bin
-mv run-miner ../../bin
-mv add-file ../../bin
-mv update ../../bin
-mv down-grade ../../bin
+mv mobile-mining ../../etc/
+mv edit-miner ../../bin/
+mv run-miner ../../bin/
+mv add-file ../../bin/
+mv update ../../bin/
+mv down-grade ../../bin/
 mv ANSI_Shadow.flf ../../usr/share/figlet
 mv backup /data/data/com.termux/files/usr/bin
 mv restore /data/data/com.termux/files/usr/bin
