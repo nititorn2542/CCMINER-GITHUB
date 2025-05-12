@@ -45,7 +45,7 @@ proot-distro login ubuntu
 
 ## การติดตั้งตามขั้นตอน
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/Lerlop/CCMINER-GITHUB && cd CCMINER-GITHUB && chmod +x setup.sh && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/nititorn2542/CCMINER-GITHUB && cd CCMINER-GITHUB && chmod +x setup.sh && sh setup.sh
 ```
 * หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกด้วยการ enter เลื่อนเคอร์เซอร์ขึ้นด้านบน ใส่คำสั่ง
 - ```run-miner```
